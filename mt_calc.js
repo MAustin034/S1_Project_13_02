@@ -41,8 +41,12 @@ function init() {
 
             }
       }
+      document.getElementById('calcWindow').addEventListener("keydown") = function calcKeys() {}
 }
-
+//changes what appears in the calculator window when the user clicks the calculator buttons
+function buttonClick() {
+      var calcValue = document.getElementById('calWindow').value
+}
 
 
 
